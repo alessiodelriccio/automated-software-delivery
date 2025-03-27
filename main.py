@@ -17,3 +17,13 @@ async def get_commits():
 async def get_vulnerability_commit():
     # Implementare funzione che filtra i commit che riguardano vulnerabilità
     pass
+
+@app.get("/major_contributors")
+async def major_contributors():
+    # Implementare funzione che restituisce i principali contributori
+    pass
+
+@app.get("/top_contributors")
+async def top_contributors():
+    # Implementare funzione che restituisce i 10 autori che hanno cotribuito maggiormente a fare fix di vulnerabilità
+    pass
