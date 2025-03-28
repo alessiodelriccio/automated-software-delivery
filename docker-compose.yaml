@@ -1,0 +1,11 @@
+services:
+  core:
+    container_name: asd_project
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "${PORT}:80"
+    env_file:
+      - .env
