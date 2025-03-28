@@ -1,0 +1,767 @@
+author,date,hash,message
+dependabot[bot],2025-03-04 15:25:16,27a944ebf8730b0fb915bf1de089cb44bc495e41,"PR #23020: Bump github/codeql-action from 3.24.9 to 3.28.10
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/23020
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.24.9 to 3.28.10.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/github/codeql-action/releases"">github/codeql-action's releases</a>.</em></p>
+<blockquote>
+<h2>v3.28.10</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>3.28.10 - 21 Feb 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.20.5. <a href=""https://redirect.github.com/github/codeql-action/pull/2772"">#2772</a></li>
+<li>Address an issue where the CodeQL Bundle would occasionally fail to decompress on macOS. <a href=""https://redirect.github.com/github/codeql-action/pull/2768"">#2768</a></li>
+</ul>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v3.28.10/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+<h2>v3.28.9</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>3.28.9 - 07 Feb 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.20.4. <a href=""https://redirect.github.com/github/codeql-action/pull/2753"">#2753</a></li>
+</ul>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v3.28.9/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+<h2>v3.28.8</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>3.28.8 - 29 Jan 2025</h2>
+<ul>
+<li>Enable support for Kotlin 2.1.10 when running with CodeQL CLI v2.20.3. <a href=""https://redirect.github.com/github/codeql-action/pull/2744"">#2744</a></li>
+</ul>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v3.28.8/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+<h2>v3.28.7</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>3.28.7 - 29 Jan 2025</h2>
+<p>No user facing changes.</p>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v3.28.7/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+<h2>v3.28.6</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/github/codeql-action/blob/main/CHANGELOG.md"">github/codeql-action's changelog</a>.</em></p>
+<blockquote>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>[UNRELEASED]</h2>
+<p>No user facing changes.</p>
+<h2>3.28.10 - 21 Feb 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.20.5. <a href=""https://redirect.github.com/github/codeql-action/pull/2772"">#2772</a></li>
+<li>Address an issue where the CodeQL Bundle would occasionally fail to decompress on macOS. <a href=""https://redirect.github.com/github/codeql-action/pull/2768"">#2768</a></li>
+</ul>
+<h2>3.28.9 - 07 Feb 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.20.4. <a href=""https://redirect.github.com/github/codeql-action/pull/2753"">#2753</a></li>
+</ul>
+<h2>3.28.8 - 29 Jan 2025</h2>
+<ul>
+<li>Enable support for Kotlin 2.1.10 when running with CodeQL CLI v2.20.3. <a href=""https://redirect.github.com/github/codeql-action/pull/2744"">#2744</a></li>
+</ul>
+<h2>3.28.7 - 29 Jan 2025</h2>
+<p>No user facing changes.</p>
+<h2>3.28.6 - 27 Jan 2025</h2>
+<ul>
+<li>Re-enable debug artifact upload for CLI versions 2.20.3 or greater. <a href=""https://redirect.github.com/github/codeql-action/pull/2726"">#2726</a></li>
+</ul>
+<h2>3.28.5 - 24 Jan 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.20.3. <a href=""https://redirect.github.com/github/codeql-action/pull/2717"">#2717</a></li>
+</ul>
+<h2>3.28.4 - 23 Jan 2025</h2>
+<p>No user facing changes.</p>
+<h2>3.28.3 - 22 Jan 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.20.2. <a href=""https://redirect.github.com/github/codeql-action/pull/2707"">#2707</a></li>
+<li>Fix an issue downloading the CodeQL Bundle from a GitHub Enterprise Server instance which occurred when the CodeQL Bundle had been synced to the instance using the <a href=""https://github.com/github/codeql-action-sync-tool"">CodeQL Action sync tool</a> and the Actions runner did not have Zstandard installed. <a href=""https://redirect.github.com/github/codeql-action/pull/2710"">#2710</a></li>
+<li>Uploading debug artifacts for CodeQL analysis is temporarily disabled. <a href=""https://redirect.github.com/github/codeql-action/pull/2712"">#2712</a></li>
+</ul>
+<h2>3.28.2 - 21 Jan 2025</h2>
+<p>No user facing changes.</p>
+<h2>3.28.1 - 10 Jan 2025</h2>
+<ul>
+<li>CodeQL Action v2 is now deprecated, and is no longer updated or supported. For better performance, improved security, and new features, upgrade to v3. For more information, see <a href=""https://github.blog/changelog/2025-01-10-code-scanning-codeql-action-v2-is-now-deprecated/"">this changelog post</a>. <a href=""https://redirect.github.com/github/codeql-action/pull/2677"">#2677</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/github/codeql-action/commit/b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d""><code>b56ba49</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/2778"">#2778</a> from github/update-v3.28.10-9856c48b1</li>
+<li><a href=""https://github.com/github/codeql-action/commit/60c9c77c33f2cd66390a3778d54de88b735b2526""><code>60c9c77</code></a> Update changelog for v3.28.10</li>
+<li><a href=""https://github.com/github/codeql-action/commit/9856c48b1a54789454314b4c32ef2354fe213208""><code>9856c48</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/2773"">#2773</a> from github/redsun82/rust</li>
+<li><a href=""https://github.com/github/codeql-action/commit/9572e09da430b4c71f7488e4195b4ca6ce1c6ef0""><code>9572e09</code></a> Rust: fix log string</li>
+<li><a href=""https://github.com/github/codeql-action/commit/1a529366ac3620317d953e2d4018eafa7459cb1c""><code>1a52936</code></a> Rust: special case default setup</li>
+<li><a href=""https://github.com/github/codeql-action/commit/cf7e90952bcceaebd4a548c2809ea6a5d461a1bc""><code>cf7e909</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/2772"">#2772</a> from github/update-bundle/codeql-bundle-v2.20.5</li>
+<li><a href=""https://github.com/github/codeql-action/commit/b7006aab6d38638d18e38a27c18f67138529c2f8""><code>b7006aa</code></a> Merge branch 'main' into update-bundle/codeql-bundle-v2.20.5</li>
+<li><a href=""https://github.com/github/codeql-action/commit/cfedae723eaced5e13052b529375e7b00d49a9cd""><code>cfedae7</code></a> Rust: throw configuration errors if requested and not correctly enabled</li>
+<li><a href=""https://github.com/github/codeql-action/commit/3971ed2a74ede0669fa7f4f5af4292030280dbfd""><code>3971ed2</code></a> Merge branch 'main' into redsun82/rust</li>
+<li><a href=""https://github.com/github/codeql-action/commit/d38c6e60dfb0232f85e388dd416559ed07da5f3a""><code>d38c6e6</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/2775"">#2775</a> from github/angelapwen/bump-octokit</li>
+<li>Additional commits viewable in <a href=""https://github.com/github/codeql-action/compare/1b1aada464948af03b950897e5eb522f92603cc2...b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github/codeql-action&package-manager=github_actions&previous-version=3.24.9&new-version=3.28.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+</details>
+Copybara import of the project:
+
+--
+62ccec95e0caa348151e04d97d944e4bdee3dd58 by dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>:
+
+Bump github/codeql-action from 3.24.9 to 3.28.10
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.24.9 to 3.28.10.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/1b1aada464948af03b950897e5eb522f92603cc2...b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Merging this change closes #23020
+
+PiperOrigin-RevId: 733320485"
+A. Unique TensorFlower,2024-06-25 19:35:51,1081403feec133be9b9eda1e5c473f31de595c8e,"Merged commit includes the following changes:
+646570256  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Put back type aliases for some 3p projects until they're migrated off of xla::Status.
+
+--
+646567067  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    [xla:cpu] Optimize KernelThunk alignment checks
+
+--
+646562233  by A. Unique TensorFlower<gardener@tensorflow.org>:
+    Automated rollback of changelist 609005660.
+
+646560125  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    [XLA:CollectivePipeliner] Add more execution tests (using the HLOs in collective_pipeliner_test.cc).
+
+--
+646554714  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Instead of copybara rules, use `if_google` to remove extra proto deps
+
+    Followup will do the same for TSL
+
+--
+646551061  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Remove `Array::Reshard`
+
+    This CL removes the deprecated `Array::Reshard` API. All existing users have been manually migrated to use `Client::CopyArrays`.
+
+    IFRT Proxy is updated such that the client no longer issues `Array::Reshard` and the server emulates the reshard behavior by using `Client::CopyArrays`. Since this does not actually change the wire format, we do not need to update the version number. Once the reshard API passes the compatibility window, we can remove its proto message and handler altogether.
+
+--
+646545951  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Add license header to `dependabot.yml`
+
+--
+646545541  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Remove force_synchronous attribute from ParallelMap op in map_parallelization optimizer.
+
+    The code reuses the attributes/inputs of the original Map op but just changes it to a ParallelMap op. But the force_synchronous attribute is not supported in ParallelMap and causes log warnings.
+
+    The issue was introduced in cl/642418430
+
+--
+646534280  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Use absl::StatusOr instead of xla::StatusOr.
+
+--
+646517068  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Add more pattern to HloUnstacker pass + some refactoring.
+
+    Added a support for handling slicing fusion pattern:
+    fusion(stacked_operand, loop_iteration_var), calls=fusion_computation
+    fusion_computation {
+      p0 = parameter(0)
+      p1 = parameter(1)
+      slice = dynamic_slice(p0, p1, zero, ...)
+      ROOT bitcast = bitcast(slice)
+    }
+
+    Add ""xla_enable_hlo_unstacker"" flag to the compiler.
+
+--
+646513305  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Remove unused deps.
+
+--
+646513101  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    [xla:cpu] Add a fast path for executing thunks sequentially
+
+--
+646507520  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Added a fingerprint field to PjRtStreamExecutorLoadedExecutable to avoid recalculating fingerprints when FingerprintExecutable() is called. This change significantly reduces idle time before execution when the GPU load tracker enqueues an executable.
+
+--
+646505763  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    Change visibility rules.
+
+--
+646505592  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    [XLA:GPU] Parse block-level parameters from backend config when available.
+
+    If block-level parameters are not available, fall back to the SoftMax heuristic.
+
+    The original plan was to parse block-level parameters from the config and remove the heuristic, but it turned out that we don't support all ""valid"" tiling. With this change it will be easier to write tests and verify that we don't have problem, before we could remove the heuristic and fully migrate to fusion backend config.
+
+    Also fix strides in ir_emitter_triton.cc. This was not a problem before, because SoftMax heuristic only produces tiles that are contiguous in memory.
+
+--
+646505352  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    [xla:cpu] Add dynamic-update-slice fusion optimization to IrEmitter2
+
+    + enable select-and-scatter test that used to time out without DUS optimization
+
+--
+646504512  by A. Unique TensorFlower<gardener@tensorflow.org>:
+
+    PR #62472: Hash Pin docker images
+
+    Imported from GitHub PR https://github.com/tensorflow/tensorflow/pull/62472
+
+    Also related to https://github.com/tensorflow/tensorflow/pull/62471, would you consider hash pin the docker images?
+
+    The security benefit of doing so is that it mitigates the risk of typosquatting attacks since the images are public. If there is a need for them to be updated regularly, I can also submit a .github/dependabot file to update the docker images regularly (weekly or monthly for example).
+
+    Besides, AFAIUC, the dockerfiles are used for build and tests, which lead to another benefit of hash pinning: reliability and stability.
+
+    Let me know your thoughts about i.
+
+    Thanks!
+
+    Copybara import of the project:
+
+    --
+    8f4589fe583518d3099c98215e5e6bf3858fa24e by Joyce Brum <joycebrum@google.com>:
+
+    feat: create dependabot
+
+    Signed-off-by: Joyce Brum <joycebrum@google.com>
+
+    Merging this change closes #62472
+
+--
+
+PiperOrigin-RevId: 646570256"
+Sagun Bajra,2023-07-05 22:07:09,2d5968e77a71ed797fd54c14fca5fb6abbcc172b,"Fix security vulnerability with TensorShape::dim_size method.
+
+PiperOrigin-RevId: 545796973"
+Michael Delorimier,2023-02-03 20:25:48,56afe5d62ead7196758556bc591e1d48f184f6d8,"[Tensorflow] Fix security vulnerability with UniqueV2. The bug is that the axis index should be canonicalized when it's negative.
+
+PiperOrigin-RevId: 506966510"
+Jian Cai,2023-02-02 05:48:51,8ae76cf085f4be26295d2ecf2081e759e04b8acf,"[Tensorflow] Fix security vulnerability with DenseBincountOp
+
+PiperOrigin-RevId: 506514542"
+Jian Cai,2023-02-01 23:35:07,728113a3be690facad6ce436660a0bc1858017fa,"[Tensorflow] Fix security vulnerability with TensorListSplitOp
+
+PiperOrigin-RevId: 506441188"
+Matthias Kramm,2023-02-01 23:02:59,d80293c5b5e403f52df28395a146a75dd3054bb8,"Fix memory corruption vulnerability in reverse_sequence_op.
+
+PiperOrigin-RevId: 506433062"
+BlackPeter13,2023-01-29 19:32:57,4696d63aa7b72e53de0d94956421010997a906f3,"Merge pull request #3 from BlackPeter13/snyk-fix-afb1c882bf1102d75c3ba5667b6ede56
+
+[Snyk] Security upgrade debian from jessie to bullseye-20221219"
+snyk-bot,2023-01-29 19:32:38,a814244132bc261d79fc541007426ee765571b40,"fix: tensorflow/tools/ci_build/Dockerfile.debian.jessie.cpu to reduce vulnerabilities
+
+The following vulnerabilities are fixed with an upgrade:
+- https://snyk.io/vuln/SNYK-DEBIAN8-GLIBC-356505
+- https://snyk.io/vuln/SNYK-DEBIAN8-GLIBC-356505
+- https://snyk.io/vuln/SNYK-DEBIAN8-GLIBC-356850
+- https://snyk.io/vuln/SNYK-DEBIAN8-GLIBC-356850
+- https://snyk.io/vuln/SNYK-DEBIAN8-GLIBC-356850"
+Isha Arkatkar,2023-01-24 21:53:58,08b8e18643d6dcde00890733b270ff8d9960c56c,"Fix security vulnerability in EditDistance op shape function.
+
+PiperOrigin-RevId: 504367470"
+BlackPeter13,2023-01-22 22:48:08,39532ea0462446e58ae8cb793716a402bcbe3e59,"Merge pull request #2 from BlackPeter13/snyk-fix-36d5d774440bdd38438c92f4a0c6a86a
+
+[Snyk] Security upgrade python from 3.10-buster to 3.12.0a3-slim-bullseye"
+snyk-bot,2023-01-22 22:47:28,1d57ffd936a19bacfcd59f31d21dd7bce2848d36,"fix: tensorflow/tools/ci_build/Dockerfile.micro to reduce vulnerabilities
+
+The following vulnerabilities are fixed with an upgrade:
+- https://snyk.io/vuln/SNYK-DEBIAN10-CURL-3065760
+- https://snyk.io/vuln/SNYK-DEBIAN10-CURL-3065760
+- https://snyk.io/vuln/SNYK-DEBIAN10-CURL-3065760
+- https://snyk.io/vuln/SNYK-DEBIAN10-CURL-3065760
+- https://snyk.io/vuln/SNYK-DEBIAN10-LIBDE265-3227415"
+BlackPeter13,2023-01-22 19:02:32,14c267fdd6aeff6c7ce4384aacb625c65760cdb9,"Merge pull request #1 from BlackPeter13/snyk-fix-61921d7e1bb993678d913b0f6530e4d7
+
+[Snyk] Security upgrade python from 3.9.0-buster to 3.10-buster"
+snyk-bot,2023-01-22 19:02:20,a569e67aad141b7ed70c1c1daad0ca7f635835c6,"fix: tensorflow/tools/ci_build/Dockerfile.micro to reduce vulnerabilities
+
+The following vulnerabilities are fixed with an upgrade:
+- https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSL-1569403
+- https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSL-2807585
+- https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSL-2933515
+- https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-1063182
+- https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-3090928"
+Jun Xu,2023-01-19 23:27:21,cc1d87130e39a862fcc6bea20a4da4e6bda119e0,"[Security] Update int overflow fix in ragged range.
+
+So ASAN won't fail.
+
+PiperOrigin-RevId: 503281076"
+Antonio Sanchez,2023-01-17 19:24:45,e3c92d192659e140d13e1c6665894a7a045a1bf4,"Fix histogram overflow vulnerability.
+
+Changed order of cast and subtraction to avoid overflows.
+
+PiperOrigin-RevId: 502640700"
+Zhufeng Pan,2023-01-12 21:26:50,ee50d1e00f81f62a4517453f721c634bbb478307,"Fix security vulnerability with FractionalMax(AVG)Pool with illegal pooling_ratio
+
+PiperOrigin-RevId: 501651261"
+Yong Tang,2023-01-08 01:08:34,b34f250825ff5b6f42731126980a7fc32cecf938,"Update curl to 7.87.0
+
+This PR updates curl to 7.87.0 to fix the following vulnerabilities in previous 7.86.0 inside tensorflow:
+
+- CVE-2022-43552: HTTP Proxy deny use-after-free        2022-12-21
+- CVE-2022-43551: Another HSTS bypass via IDN   2022-12-21
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
+Zhufeng Pan,2022-11-08 19:12:10,948fe6369a5711d4b4568ea9bbf6015c6dfb77e2,"Fix nn.conv3d_transpose security vulnerability with illegal input shape
+
+PiperOrigin-RevId: 487000656"
+A. Unique TensorFlower,2022-10-24 21:30:10,216525144ee7c910296f5b05d214ca1327c9ce48,"Fix security vulnerability with FractionalMax(AVG)Pool with illegal pooling_ratio
+
+PiperOrigin-RevId: 483486453"
+Alan Liu,2022-10-05 21:18:36,00c821af032ba9e5f5fa3fe14690c8d28a657624,"Fix tf.raw_ops.ResizeNearestNeighborGrad vulnerability with large dimensions.
+
+Note: This fix will have to be cherry picked in r2.10, r2.9, and r2.8.
+PiperOrigin-RevId: 479141644"
+Alan Liu,2022-10-05 20:18:49,8faa6ea692985dbe6ce10e1a3168e0bd60a723ba,"Fix tf.raw_ops.ImageProjectiveTransformV2 vulnerability with large output_shape.
+
+Note: This fix will have to be cherry picked in r2.10, r2.9, and r2.8.
+PiperOrigin-RevId: 479125772"
+A. Unique TensorFlower,2022-09-29 20:08:03,3ee803a2245ea1f77afa82a635963002bbac9d56,"Security vulnerability fix for Out of Bound error in ThreadUnsafeUnigramCandidateSampler.
+
+PiperOrigin-RevId: 477802556"
+Isha Arkatkar,2022-09-29 18:14:49,7126aa8e892355ec12999e08fae8db344b0ae8ad,"Security vulnerability fix for Out of Bound error in ThreadUnsafeUnigramCandidateSampler.
+
+PiperOrigin-RevId: 477773241"
+Alan Liu,2022-09-28 20:54:50,fc33f3dc4c14051a83eec6535b608abe1d355fde,"Fix tf.raw_ops.TensorListConcat vulnerability (segfault).
+
+Check that the element_shape input is valid.
+Add graph/eager unit tests.
+
+Note: This fix will have to be cherry picked in r2.10, r2.9, and r2.8.
+PiperOrigin-RevId: 477544091"
+A. Unique TensorFlower,2022-09-28 18:08:21,d71090c3e5ca325bdf4b02eb236cfb3ee823e927,"Fix security vulnerability with FractionalMaxPoolGrad
+
+PiperOrigin-RevId: 477500477"
+Sagun Bajra,2022-09-27 21:50:36,eaf30105b048833e58b6b4def707e789583144ed,"Fix security vulnerability with calling ParseInt64Value with an invalid py_value.
+
+PiperOrigin-RevId: 477281263"
+Alan Liu,2022-09-27 18:26:10,bf9932fc907aff0e9e8cccf769e8b00d30fd81a1,"Fix tf.raw_ops.TensorListScatterV2 vulnerability with non-scalar input.
+
+Check that the num_elements input is valid.
+Add graph/eager unit tests. Graph mode was already ok but eager mode was not.
+
+Note: This fix will have to be cherry picked in r2.10, r2.9, and r2.8.
+PiperOrigin-RevId: 477225661"
+Alan Liu,2022-09-26 22:10:22,888e34b49009a4e734c27ab0c43b0b5102682c56,"Fix tf.raw_ops.TensorListResize vulnerability with non-scalar input.
+
+Check that the size input is valid.
+Add graph/eager unit tests. Graph mode was already ok but eager mode was not.
+
+Note: This fix will have to be cherry picked in r2.10, r2.9, and r2.8.
+PiperOrigin-RevId: 477002316"
+Antonio Sanchez,2022-09-26 20:45:03,e9e95553e5411834d215e6770c81a83a3d0866ce,"Fix pywrap attribute read security vulnerability.
+
+If a list of quantized tensors is assigned to an attribute, the pywrap code was failing to
+parse the tensor and returning a `nullptr`, which wasn't caught.  Here we check the return
+value and set an appropriate error status.
+
+PiperOrigin-RevId: 476981029"
+Alan Liu,2022-09-22 16:16:04,02400ea266bd811fc016a848445de1bbff3a23a0,"Fix tf.math.sobol_sample vulnerability with non-scalar inputs.
+
+Check that given inputs are valid.
+Add graph/eager unit tests. Graph mode was already ok but eager mode was not.
+
+PiperOrigin-RevId: 476117492"
+Laura Pak,2022-08-08 23:42:20,a3943430b5ef27e233de50afdf784d264d65336a,"Fix tf.raw_ops.EmptyTensorList vulnerability from non scalar `num_elements`.
+
+PiperOrigin-RevId: 466185522"
+Laura Pak,2022-08-05 19:41:45,e9863e9a9cbde182fc86d03be8081dd45aa9aaa3,"Fix tf.raw_ops.EmptyTensorList vulnerability from non scalar `num_elements`.
+
+PiperOrigin-RevId: 465625977"
+Laura Pak,2022-08-04 18:34:01,aca766ac7693bf29ed0df55ad6bfcc78f35e7f48,"Fix tf.raw_ops. QuantizedMatMul vulnerability from non scalar min/max a/b arguments.
+
+PiperOrigin-RevId: 465364257"
+unknown,2022-07-23 14:11:51,2c443c6b497c15d038d1aeb17bfdefa374e9d939,Fix markdown files in security.md and issues.md
+A. Unique TensorFlower,2022-07-21 03:55:19,03a659d7be9a1154fdf5eeac221e5950fec07dad,"Fix security vulnerability with FractionalAvgPoolGrad
+
+PiperOrigin-RevId: 462292194"
+Jun Xu,2022-07-19 17:21:30,88f93dfe691563baa4ae1e80ccde2d5c7a143821,"[security] Fix failed shape check in RaggedTensorToVariant.
+
+`row_splits` must have rank 1.
+
+PiperOrigin-RevId: 461915027"
+Alan Liu,2022-07-19 16:48:55,c8ba76d48567aed347508e0552a257641931024d,"Fix tf.raw_ops.EmptyTensorList vulnerability with invalid `element_shape`.
+
+Check that given `element_shape` is valid.
+Add graph/eager unit tests. Graph mode was already ok but eager mode was not.
+
+PiperOrigin-RevId: 461906461"
+Jun Xu,2022-07-19 00:03:44,37cefa91bee4eace55715eeef43720b958a01192,"[security] Fix int overflow in RaggedRangeOp.
+
+PiperOrigin-RevId: 461749624"
+A. Unique TensorFlower,2022-07-18 22:04:51,3a6ac52664c6c095aa2b114e742b0aa17fdce78f,"Fix security vulnerability with AvgPoolGrad
+
+PiperOrigin-RevId: 461724457"
+A. Unique TensorFlower,2022-07-18 21:57:29,8741e57d163a079db05a7107a7609af70931def4,"Fix security vulnerability with FractionalMaxPoolGrad
+
+PiperOrigin-RevId: 461722693"
+Alan Liu,2022-07-18 17:50:54,5dd7b86b84a864b834c6fa3d7f9f51c87efa99d4,"Fix tf.raw_ops.SaveSlices vulnerability with unsupported dtypes.
+
+Check that given dtype is supported and emit a descriptive error if not.
+
+PiperOrigin-RevId: 461660795"
+A. Unique TensorFlower,2022-07-15 21:49:36,9178ac9d6389bdc54638ab913ea0e419234d14eb,"Fix security vulnerability with AvgPool3DGrad.
+
+PiperOrigin-RevId: 461244371"
+Sagun Bajra,2022-07-14 17:16:55,5f945fc6409a3c1e90d6970c9292f805f6e6ddf2,"Fix security vulnerability with UnbatchGradKernel
+
+PiperOrigin-RevId: 460992964"
+Sagun Bajra,2022-07-13 23:13:13,bf4c14353c2328636a18bfad1e151052c81d5f43,"Fix security vulnerability with DenseBincountOp
+
+PiperOrigin-RevId: 460826735"
+Alan Liu,2022-07-13 22:37:48,bf6b45244992e2ee543c258e519489659c99fb7f,"Fix tf.raw_ops.AudioSummaryV2 vulnerability with invalid `sample_rate`.
+
+Check that `sample_rate` has the required shape.
+
+PiperOrigin-RevId: 460819553"
+Alan Liu,2022-07-13 16:54:08,cf70b79d2662c0d3c6af74583641e345fc939467,"Fix tf.raw_ops.SetSize vulnerability with invalid input arg specifying shape.
+
+Check that given input is a 1D tensor, as required.
+
+PiperOrigin-RevId: 460740463"
+Sagun Bajra,2022-07-13 16:46:48,bd90b3efab4ec958b228cd7cfe9125be1c0cf255,"Fix security vulnerability with LRNGradOp
+
+PiperOrigin-RevId: 460738938"
+Mihai Maruseac,2022-05-19 15:47:06,dddbc30cd16de33b55ad3b592001661a4ae58f10,"Fix tf.raw_ops.EditDistance vulnerability with negative indices.
+
+PiperOrigin-RevId: 449753736"
+George Karpenkov,2022-05-19 09:22:48,4510c68b7a32547e14f7b88c2bd5a59640380073,"Fix tf.raw_ops.EditDistance vulnerability with negative indices.
+
+Check that indices are non-negative. Fix several identical code sites.
+Clean up grammar in error message.
+
+PiperOrigin-RevId: 449690827"
+Yong Tang,2022-05-11 14:49:42,142cb705bd237bb635ac4916e8640c0dd441020e,"Update curl to latest 7.83.1
+
+This PR updates curl to latest 7.83.1 to fix the following vulnerabilities in 7.83.0:
+- 121	CVE-2022-30115: HSTS bypass via trailing dot
+- 120	CVE-2022-27782: TLS and SSH connection too eager reuse
+- 119	CVE-2022-27781: CERTINFO never-ending busy-loop
+- 118	CVE-2022-27780: percent-encoded path separator in URL host
+- 117	CVE-2022-27779: cookie for trailing dot TLD
+- 116	CVE-2022-27778: curl removes wrong file on error
+
+See https://curl.se/docs/security.html for details
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
+Antonio Sanchez,2022-05-02 23:10:45,ea50a40e84f6bff15a0912728e35b657548cef11,"Fix failed check in SparseTensorToCSRSparseMatrix
+
+Security vulnerability fix. A `CHECK` fails if inputing either an empty `dense_shape`,
+or a non-rank-2 `indices`. Added appropriate checks and tests.
+
+PiperOrigin-RevId: 446053984"
+Sagun Bajra,2022-05-02 21:21:09,803404044ae7a1efac48ba82d74111fce1ddb09a,"Fix security vulnerability with LSTMBlockCellOp
+
+PiperOrigin-RevId: 446028341"
+Antonio Sanchez,2022-04-30 04:07:06,a5b89cd68c02329d793356bda85d079e9e69b4e7,"Fix empty resource handle vulnerability.
+
+Some ops that attempt to extract a resource handle from user input
+can lead to nullptr dereferences.  This returns an error in such
+a case.
+
+PiperOrigin-RevId: 445571938"
+Sagun Bajra,2022-04-29 23:08:37,acd56b8bcb72b163c834ae4f18469047b001fadf,"Fix security vulnerability with SpaceToBatchNDOp.
+
+PiperOrigin-RevId: 445527615"
+Alan Liu,2022-04-29 22:53:49,cebe3c45d76357d201c65bdbbf0dbe6e8a63bbdb,"Fix tf.raw_ops.StagePeek vulnerability with invalid `index`.
+
+Check that input is actually a scalar before treating it as such.
+
+PiperOrigin-RevId: 445524908"
+Alan Liu,2022-04-29 22:42:36,3150642acbbe254e3c3c5d2232143fa591855ac9,"Fix tf.raw_ops.LoadAndRemapMatrix vulnerability with invalid `row_remapping`.
+
+Check that `row_remapping` has the correct dims().
+
+PiperOrigin-RevId: 445522800"
+Antonio Sanchez,2022-04-29 22:22:06,0f0b080ecde4d3dfec158d6f60da34d5e31693c4,"Fix undefined behavior in QuantizedConv2D
+
+Added more input validation and tests.  Prior to this, we could get
+`nullptr` exceptions when attempting to access 0th elements of 0-sized
+inputs, leading to security vulnerability bugs.
+
+Also needed to modify `quantized_conv_ops_test.cc` for consistency.
+Previously the CPU kernel did technically support passing tensors
+of rank larger than 0 for min/max values.  However, the XLA kernels do not.
+
+PiperOrigin-RevId: 445518507"
+A. Unique TensorFlower,2022-04-29 19:37:50,4681624eece54ab1ed5db3af458fcbde547d2ed6,"Fix security vulnerability with SpaceToBatchNDOp.
+
+PiperOrigin-RevId: 445481606"
+Sagun Bajra,2022-04-29 18:37:15,d5d9c00b860d6b82f3ac98e33f941a9b44e14524,"Fix security vulnerability with SpaceToBatchNDOp.
+
+PiperOrigin-RevId: 445468285"
+Alan Liu,2022-04-29 16:47:37,30721cf564cb029d34535446d6a5a6357bebc8e7,"Fix tf.raw_ops.EditDistance vulnerability with negative indices.
+
+Check that indices are non-negative. Fix several identical code sites.
+Clean up grammar in error message.
+
+PiperOrigin-RevId: 445442017"
+Alan Liu,2022-04-28 20:08:57,cff267650c6a1b266e4b4500f69fbc49cdd773c5,"Fix tf.raw_ops.DeleteSessionTensor vulnerability with invalid `handle`.
+
+Check that `handle` input is actually a scalar before treating it as such.
+
+PiperOrigin-RevId: 445228994"
+Alan Liu,2022-04-28 19:25:03,48305e8ffe5246d67570b64096a96f8e315a7281,"Fix tf.raw_ops.GetSessionTensor vulnerability with invalid handle.
+
+Check that input is actually a scalar before treating it as such.
+
+PiperOrigin-RevId: 445218701"
+Alan Liu,2022-04-28 18:37:31,13d38a07ce9143e044aa737cfd7bb759d0e9b400,"Fix tf.raw_ops.UnsortedSegmentJoin vulnerability with invalid num_segments.
+
+Check that input is actually a scalar before treating it as such.
+
+PiperOrigin-RevId: 445206880"
+Alan Liu,2022-04-28 18:06:02,098e7762d909bac47ce1dbabe6dfd06294cb9d58,"Fix tf.raw_ops.QuantizeAndDequantizeV4Grad vulnerability with invalid input_min or input_max.
+
+Check that argument is actually a scalar before treating it as such.
+
+PiperOrigin-RevId: 445198280"
+Alan Liu,2022-04-28 18:02:25,290bb05c80c327ed74fae1d089f1001b1e2a4ef7,"Fix tf.raw_ops.TensorSummaryV2 vulnerability with invalid serialized_summary_metadata.
+
+Check that input is actually a scalar before treating it as such.
+
+PiperOrigin-RevId: 445197183"
+Antonio Sanchez,2022-04-28 03:50:13,237822b59fc504dda2c564787f5d3ad9c4aa62d9,"Fix tf.compat.v1.placeholder_with_default vulnerability with quantized types.
+
+When iterating through the tensor to extract shape values, an underlying missing kernel
+(`StridedSlice` for quantized types) causes an error, which then results in a `nullptr`
+being passed to `ParseDimensionValue()`, causing a segfault.
+
+The `nullptr` check allows the missing kernel error to propagate.
+Adding the missing kernel registrations allows the shape values
+to be extracted successfully.
+
+PiperOrigin-RevId: 445045957"
+Alan Liu,2022-04-27 22:53:46,3796cc4fcd93ae55812a457abc96dcd55fbb854b,"Fix tf.raw_ops.DepthwiseConv2dNativeBackpropInput vulnerability with large input sizes.
+
+Use AddDimWithStatus rather than AddDim in order to catch and report integer overflow gracefully.
+
+PiperOrigin-RevId: 444989983"
+Yong Tang,2021-09-22 12:06:40,b3738c6c047105dfdedded7843faba3d1ad2ec00,"Update curl to 7.79.1
+
+This PR updates curl from 7.78 to 7.79.1.
+
+The reason of update is to fix the following vulnerabilities in 7.78:
+- CVE-2021-22947: STARTTLS protocol injection via MITM
+- CVE-2021-22946: Protocol downgrade required TLS bypassed
+- CVE-2021-22945: UAF and double-free in MQTT sending
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
+Mihai Maruseac,2021-05-14 16:38:28,8d29555fe3b6dbae57a204dd2af8a3627a91795f,"Fix typos in security advisories.
+
+PiperOrigin-RevId: 373806234
+Change-Id: Ic503f47d8eebe28cfedb078c4beb48c30f6c7de9"
+Mihai Maruseac,2021-05-13 21:04:16,3a74f0307236fe206b046689c4d76f57c9b74eee,"Fix broken copybara export.
+
+Publish security advisories that got deleted by accident as well as security advisories for new changes.
+
+PiperOrigin-RevId: 373653751
+Change-Id: I4231494bb16c3801b7bd9b58e828b91458495442"
+Amit Patankar,2021-04-13 21:18:51,eebb96c2830d48597d055d247c0e9aebaea94cd5,"Fix an invalid address vulnerability in `tf.raw_ops.RaggedBincount`.
+
+PiperOrigin-RevId: 368293153
+Change-Id: I4b4e493d3fd05e7dc55a55de3a041a80a4f275c3"
+Mihai Maruseac,2020-12-07 19:57:01,8b5b9dc96666a3a5d27fad7179ff215e3b74b67c,"Completely rewrite `GetMatchingPaths`.
+
+The current parallel implementation is too complex (lambda inside lambda, two levels of parallelism) and has a read outside of bounds issue.
+
+The new implementation cleans up artifacts from the previous implementations that were left in the code as it evolves. We add multiple helper functions, and document invariants and preconditions as well as every major step. This way, we fix the security issue and a potential new one which was not caught before
+
+PiperOrigin-RevId: 346146220
+Change-Id: Iec0f44673f43349797bf9944dffe9b2f779137d8"
+Mihai Maruseac,2020-12-05 01:12:58,84607ed59e67595f916950098ae92ae835fd513a,"Completely rewrite `GetMatchingPaths`.
+
+The current parallel implementation is too complex (lambda inside lambda, two levels of parallelism) and has a read outside of bounds issue.
+
+The new implementation cleans up artifacts from the previous implementations that were left in the code as it evolves. We add multiple helper functions, and document invariants and preconditions as well as every major step. This way, we fix the security issue and a potential new one which was not caught before
+
+PiperOrigin-RevId: 345787373
+Change-Id: Idcf3bd7bac7203995662db6765d97ec98b1edd7b"
+Mihai Maruseac,2020-09-23 00:41:48,c06650b697de3bf72ba1f3c9e55ef7689e4ec088,"Fix rendering of security advisories.
+
+GitHub does not insert automatic links and smart code snippets in these files, so we have to do it manually.
+
+PiperOrigin-RevId: 333195707
+Change-Id: I1e2fed8ff207fbfce6eb8fb2b910d12bcab4100c"
+Mihai Maruseac,2020-09-19 02:14:17,22e07fb204386768e5bcbea563641ea11f96ceb8,"Fix multiple vulnerabilities in `tf.experimental.dlpack.to_dlpack`.
+
+We have a use after free caused by memory coruption, a segmentation fault caused by memory corruption, several memory leaks and an undefined behavior when taking the reference of a nullptr.
+
+PiperOrigin-RevId: 332568894
+Change-Id: Ife0fc05e103b35325094ae5d822ee5fdea764572"
+Mihai Maruseac,2020-09-19 01:15:03,3cbb917b4714766030b28eba9fb41bb97ce9ee02,"Fix multiple vulnerabilities in `tf.raw_ops.*CountSparseOutput`.
+
+Also add tests for these API points, both for the happy paths and for the vulnerable ones.
+
+PiperOrigin-RevId: 332563222
+Change-Id: Ib3b52116a83a134c2e742a7c66e5e956db8fba05"
+Mihai Maruseac,2020-09-18 23:54:17,33be22c65d86256e6826666662e40dbdfe70ee83,"Prevent format string vulnerability in `tf.strings.as_string`.
+
+The `printf` format specifier only allows `#`, `0`, `-`, `+` and space as flag characters. Others are interpreted as width/precision/length modifier or conversion specifiers. If a character does not fit into any of these sets `printf` just displays it.
+
+Also add a test suite for `tf.strings.as_string`. Also fix the issue where the flag character was used only if width was specified.
+
+PiperOrigin-RevId: 332553548
+Change-Id: Ie57cf2a7c14d1a36097642794c14329db669bbba"
+Mihai Maruseac,2020-08-19 18:55:26,ecfa7d4398b6eb10dc8e98c26a2cae902dea531c,"[security] Fix typo in versions affected by one TFSA.
+
+No functionality change.
+
+PiperOrigin-RevId: 327477678
+Change-Id: I2d423afba5f18ef28b89b75c22db1c75cad580f3"
+Yong Tang,2018-07-12 06:08:42,b87e1f58ead4c6bc906b29092fd486e89a578d2e,"Fix invalid link in security advisories page
+
+The link in security advisories page was invalid,
+should be `[SECURITY.md](https://...)` instead
+of `(https://...)[SECURITY.md]`. This fix correct
+the link issue.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
+Yong Tang,2018-07-12 03:29:08,954c5a95783740cf4b65f6f806dd1fb2e07d3f62,"Fix incorrect link in security advisory TFSA-2018-001
+
+This fix fixes the issue raised in 20722 where the commit
+link in security advisory TFSA-2018-001 was incorrect.
+
+This fix fixes 20722.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
+Yong Tang,2018-06-22 05:05:47,d932155363d6ded97dda38ce799168d27566978b,"Update jsoncpp to 1.8.4 (#20182)
+
+* Update jsoncpp to 1.8.4
+
+This fix updates the jsoncpp to 1.8.4 to address the issue
+raised in 20170. The jsoncpp used in tf was old and may contain
+security issues.
+
+This fix fixes 20170.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>
+
+* Add JSON_HAS_INT64 define to jsoncpp build
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>
+
+* Fix data type conversion issue for jsoncpp.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>
+
+* Fix build by include ""version.h""
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
+Frank Chen,2018-06-06 18:56:49,20d3228e4efbf55441bf179e668ed52e900dd347,"Fix URLs in security/index.md and point SECURITY.md's vuln list to security/index.md
+
+PiperOrigin-RevId: 199503532"
+Frank Chen,2018-05-31 19:38:35,ff28cfe18d69657cafcddadff6a36eb040c0cd7d,"Fix links in the TensorFlow Security Advisories
+
+PiperOrigin-RevId: 198762795"
+Michael Case,2018-03-27 06:34:05,1c38584cb9793642928bf888be1a98698d3b8c44,"Fix acknowledgment to say ""Blade Team of Tencent"" in security.md file.
+
+Team is incorrectly referred to as ""TenCent Blade Team""
+
+PiperOrigin-RevId: 190577449"
+Yong Tang,2018-03-09 08:21:26,60a21e25b0261369a15ca1d17505d7c3c82be967,"Fix broken link pointing to vulnerability reporting/SECURITY.md (#17453)
+
+The vulnerability reporting (SECURITY.md) has been moved to top level
+directory, this fix fixes the broken link inside tensorflow/docs_src/community/welcome.md
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
+Martin Wicke,2018-02-21 20:17:22,afae8a8f98b72dd476e7947cda5351fb34bc684f,"Merge pull request #17173 from tensorflow/MarkDaoust-patch-1
+
+Fix table format in SECURITY.md"
+Mark Daoust,2018-02-21 18:20:33,8f4e42589a55c6297f704b123458472220f4615f,Fix table format in SECURITY.md
+Yong Tang,2018-02-05 21:43:21,1f915bf88b282aae50da6fe3b4204df5509d0542,"Fix the incorrect link to vulnerability reporting (#16778)
+
+This fix fixes the incorrect link to vulnerability reporting.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
+Yong Tang,2018-01-11 14:46:35,049d8df140035da864194333f444f97f24c6ffb3,"Use https for `https://github.com/tensorflow/serving` (#16030)
+
+* Use https for `https://github.com/tensorflow/serving`
+
+It looks like there are a couple of links in saved_model.md
+using http to point to serving, and the rest are using https
+to point to serving, This fix updates to `https` for consistency
+and security.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
+Yong Tang,2018-01-05 23:18:38,26d47657064105b1a05a3f3e8c803819efcd159d,"Use https for `www.tensorflow.org` (#15895)
+
+* Use https for `www.tensorflow.org`
+
+This fix uses `https://www.tensorflow.org` for `www.tensorflow.org`,
+for the purpose of increased security and consistency with
+the rest of the documentations.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>"
