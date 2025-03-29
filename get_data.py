@@ -87,6 +87,10 @@ def get_results(file_path, chunk_size):
                     first_chunk = False
                 tabulated_chunks.append(html_chunk)
             return "".join(tabulated_chunks)
+        except pd.errors.EmptyDataError:
+            return "Il file è vuoto."
+        except FileNotFoundError:
+            return f"Il file {file_path} non è stato trovato."
         except Exception as e:
             return f"An error occurred while reading the file: {e}"
     else:
