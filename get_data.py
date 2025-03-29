@@ -1,8 +1,14 @@
-import os
+"""
+Modulo per il recupero e la formattazione dei risultati in formato HTML.
 
+Funzioni:
+- get_results(file_path, chunk_size): Legge un file CSV e restituisce una tabella HTML paginata.
+"""
+
+import os
 import pandas as pd
 
-table_style = """
+TABLE_STYLE = """
 <style>
     table {
         border-collapse: collapse;
@@ -46,8 +52,16 @@ table_style = """
 </style>
 """
 
-
 def get_results(file_path, chunk_size):
+    """Legge un file CSV e restituisce una tabella HTML paginata.
+
+    Args:
+        file_path (str): Percorso del file CSV.
+        chunk_size (int): Numero di righe per ogni blocco di lettura.
+
+    Returns:
+        str: Tabella HTML contenente i dati del file CSV.
+    """
     if os.path.exists(file_path):
         try:
             chunks = pd.read_csv(file_path, chunksize=chunk_size)
@@ -61,16 +75,18 @@ def get_results(file_path, chunk_size):
                     html_chunk = f"""
                         <html>
                         <head>
-                        {table_style}
+                        {TABLE_STYLE}
                         </head>
                         <body>
-                        <table>\n{html_chunk}\n</table>
+                        <table>
+                        {html_chunk}
+                        </table>
                         </body>
                         </html>
                     """
                     first_chunk = False
                 tabulated_chunks.append(html_chunk)
-            return ''.join(tabulated_chunks)
+            return "".join(tabulated_chunks)
         except Exception as e:
             return f"An error occurred while reading the file: {e}"
     else:
